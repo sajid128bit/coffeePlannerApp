@@ -1,0 +1,65 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.background-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-right: 400px;
+  padding-top: 150px;
+  height: 50vh;
+}
+.create-a-plan {
+  align-self: flex-end;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f4f1ea;
+  font-family: 'Roboto';
+}
+.container2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+.question-answers {
+  height: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.plan-style {
+  padding: 10px;
+  text-align: center;
+  background-color: #0e8684;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 15px;
+  align-self: center;
+  color: #ffffff;
+  font-size: 22px;
+}
+.suggestion {
+  display: flex;
+  justify-content: center;
+}
+.kindly-select {
+  font-size: 22px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #2e353d;
+  padding: 12px;
+  color: #ffffff;
+  border-width: 0px;
+  width: 650px;
+  margin-bottom: 40px;
+}
+span {
+  color: #0e8684;
+}
